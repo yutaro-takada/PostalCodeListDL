@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PostalCodeList_DL
-build_property.ProjectDir = /Users/noname/Desktop/Dotnet/Dotnet_DL_PostalCodeList/PostalCodeList_DL/PostalCodeList_DL/
+build_property.ProjectDir = /Users/noname/Desktop/Dotnet/PostalCodeListDL/PostalCodeList_DL/

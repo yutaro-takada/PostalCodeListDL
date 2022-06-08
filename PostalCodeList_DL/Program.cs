@@ -34,7 +34,7 @@ namespace SeleniumTest
         public static List<PostalCodeDto> ReadCsv()
         {
             List<PostalCodeDto> lists = new List<PostalCodeDto>();
-            string readFile = "/Users/noname/Downloads/decompress/add_2202.CSV";
+            string readFile = "/Users/noname/Downloads/decompress/add_2205.CSV";
 
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             StreamReader sr = new StreamReader(readFile, System.Text.Encoding.GetEncoding("shift_jis"));
@@ -106,7 +106,7 @@ namespace SeleniumTest
         {
             try
             {
-                string zipPath = "/Users/noname/Downloads/add_2202.zip";
+                string zipPath = "/Users/noname/Downloads/add_2205.zip";
                 string extractPath = "/Users/noname/Downloads/decompress";
                 var fileCount = Directory.GetFiles(extractPath, "*.csv");
 

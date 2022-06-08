@@ -11,10 +11,10 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Selenium.Support/4.1.0": {
+      "Selenium.Support/4.2.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.1.0"
+          "Selenium.WebDriver": "4.2.0"
         },
         "compile": {
           "lib/net5.0/WebDriver.Support.dll": {}
@@ -23,7 +23,7 @@
           "lib/net5.0/WebDriver.Support.dll": {}
         }
       },
-      "Selenium.WebDriver/4.1.0": {
+      "Selenium.WebDriver/4.2.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
@@ -35,7 +35,7 @@
           "lib/net5.0/WebDriver.dll": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/100.0.4896.6000": {
+      "Selenium.WebDriver.ChromeDriver/102.0.5005.6102": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -87,10 +87,10 @@
         "packageIcon.png"
       ]
     },
-    "Selenium.Support/4.1.0": {
-      "sha512": "wuK5cfgVaimOZqyuriY2geGpNsI9DWky8CuBlrkBnmebkSrRftxqwyUVy0NLooHaAB2iaMj7qM+VOdUEX5bCHQ==",
+    "Selenium.Support/4.2.0": {
+      "sha512": "SSX00fRnEQyy9Z4J2tUjM22NRdnc1fR0KSQ9vszannwCHH8QixrZo2xUM76xffjeuOfVkckS9WBWCG0I0AJsgw==",
       "type": "package",
-      "path": "selenium.support/4.1.0",
+      "path": "selenium.support/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -102,14 +102,14 @@
         "lib/net5.0/WebDriver.Support.dll",
         "lib/netstandard2.0/WebDriver.Support.dll",
         "lib/netstandard2.1/WebDriver.Support.dll",
-        "selenium.support.4.1.0.nupkg.sha512",
+        "selenium.support.4.2.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.1.0": {
-      "sha512": "d4smisz4a/wJCM2TzkKTl+BLfvZUTvaobhKElDfCVZlvY8ThsC8VAoBNWTlg1H/GGzIP//yVGko/W0FILTgkYA==",
+    "Selenium.WebDriver/4.2.0": {
+      "sha512": "1FE1Y1F0p6zuS/1RybCxkuoywVvcV2XJv10uqShOTNSpY/hyLM3Hk/D03CPmqkZ4l2vYArcjlunTV/FSY7dpmA==",
       "type": "package",
-      "path": "selenium.webdriver/4.1.0",
+      "path": "selenium.webdriver/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -121,14 +121,14 @@
         "lib/net5.0/WebDriver.dll",
         "lib/netstandard2.0/WebDriver.dll",
         "lib/netstandard2.1/WebDriver.dll",
-        "selenium.webdriver.4.1.0.nupkg.sha512",
+        "selenium.webdriver.4.2.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/100.0.4896.6000": {
-      "sha512": "ttUzQ+lgWSifCMhw1MGUf4eFt9Vh88O1mua58huh5zLMZdqa/Wrh+lQGZnZrcvoifq85fWx7ESlbl57iPDaJ+w==",
+    "Selenium.WebDriver.ChromeDriver/102.0.5005.6102": {
+      "sha512": "TGqy37Fn7QXfkOYSLHWorYTPJyeUA88FolgwdDZCafs//FqlTMet4zNGH4nGBOH/bjeWHHBmjmAwtpu/L4iQcg==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/100.0.4896.6000",
+      "path": "selenium.webdriver.chromedriver/102.0.5005.6102",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -137,9 +137,10 @@
         "build/Selenium.WebDriver.ChromeDriver.targets",
         "driver/linux64/chromedriver",
         "driver/mac64/chromedriver",
+        "driver/mac64arm/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.100.0.4896.6000.nupkg.sha512",
+        "selenium.webdriver.chromedriver.102.0.5005.6102.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -165,9 +166,9 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Selenium.Support >= 4.1.0",
-      "Selenium.WebDriver >= 4.1.0",
-      "Selenium.WebDriver.ChromeDriver >= 100.0.4896.6000",
+      "Selenium.Support >= 4.2.0",
+      "Selenium.WebDriver >= 4.2.0",
+      "Selenium.WebDriver.ChromeDriver >= 102.0.5005.6102",
       "Selenium.WebDriverBackedSelenium >= 4.1.0"
     ]
   },
@@ -177,14 +178,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/noname/Desktop/Dotnet/Dotnet_DL_PostalCodeList/PostalCodeList_DL/PostalCodeList_DL/PostalCodeList_DL.csproj",
+      "projectUniqueName": "/Users/noname/Desktop/Dotnet/PostalCodeListDL/PostalCodeList_DL/PostalCodeList_DL.csproj",
       "projectName": "PostalCodeList_DL",
-      "projectPath": "/Users/noname/Desktop/Dotnet/Dotnet_DL_PostalCodeList/PostalCodeList_DL/PostalCodeList_DL/PostalCodeList_DL.csproj",
+      "projectPath": "/Users/noname/Desktop/Dotnet/PostalCodeListDL/PostalCodeList_DL/PostalCodeList_DL.csproj",
       "packagesPath": "/Users/noname/.nuget/packages/",
-      "outputPath": "/Users/noname/Desktop/Dotnet/Dotnet_DL_PostalCodeList/PostalCodeList_DL/PostalCodeList_DL/obj/",
+      "outputPath": "/Users/noname/Desktop/Dotnet/PostalCodeListDL/PostalCodeList_DL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/noname/.config/NuGet/NuGet.Config"
+        "/Users/noname/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -210,15 +211,15 @@
         "dependencies": {
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.1.0, )"
+            "version": "[4.2.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.1.0, )"
+            "version": "[4.2.0, )"
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[100.0.4896.6000, )"
+            "version": "[102.0.5005.6102, )"
           },
           "Selenium.WebDriverBackedSelenium": {
             "target": "Package",
@@ -240,7 +241,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.105/RuntimeIdentifierGraph.json"
       }
     }
   }
